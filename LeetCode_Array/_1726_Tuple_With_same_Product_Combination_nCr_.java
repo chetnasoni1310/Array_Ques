@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 
 public class _1726_Tuple_With_same_Product_Combination_nCr_ {
     public int tupleSameProduct(int[] nums) {
@@ -50,7 +51,7 @@ public class _1726_Tuple_With_same_Product_Combination_nCr_ {
           if(k > 1)
           {
                 int combination= (k *(k-1))/2 ;   //nCr wala formula 
-                totalTuples+= 8*combination ;     // jaise updar bataya 
+                totalTuples+= 8*combination ;     // jaise upar bataya 
           } 
         }
   
